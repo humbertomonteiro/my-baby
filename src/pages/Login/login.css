@@ -1,0 +1,46 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 210px);
+}
+
+.container-login h1 {
+    font-family: var(--font-1);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95%;
+}
+
+.container-login form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.container-login form input,
+.container-login form select,
+.container-login form button {
+    width: 400px;
+    max-width: 90%;
+    padding: 10px;
+}
+
+.container-login form button {
+    color: #fff;
+    transition: .5s;
+}
+
+.container-login a {
+    margin-top: 10px;
+}

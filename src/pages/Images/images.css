@@ -1,0 +1,11 @@
+.container-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.container-images h1 {
+    font-family: var(--font-1);
+    font-size: 4rem;
+}

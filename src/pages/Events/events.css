@@ -1,0 +1,48 @@
+.container-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+}
+
+
+@media (max-width: 780px) {
+    .event-text {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .box-present-img {
+        height: 150px;
+    }
+
+    .page-event h1,
+    .event-h1 {
+        font-size: 2.5rem;
+    }
+
+    .name-son {
+        font-size: 2.5rem;
+    }
+
+    .box-present {
+        height: 250px;
+    }   
+
+    .box-present h3,
+    .box-mimos h3 {
+        font-size: 1rem;
+        line-height: 15px;
+    }
+}

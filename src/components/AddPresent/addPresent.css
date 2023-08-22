@@ -1,0 +1,83 @@
+.container-presents {
+    width: 600px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-presents h2 {
+    margin: 30px 0 20px 0;
+    font-family: var(--font-2);
+    text-align: center;
+}
+
+.box-presents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.box-present {
+    width: 46%;
+    height: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-present-img {
+    width: 100%;
+    height: 220px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-present-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid var(--color-2);
+    border-radius: 10px;
+}
+
+.box-present strong {
+    margin-top: 10px;
+}
+
+.box-present h3 {
+    font-family: var(--font-2);
+    text-align: center;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+
+
+.box-present a,
+.box-present button {
+    padding: 5px 10px;
+    margin: 5px 0 2px 0;
+    min-width: 50%;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+    transition: .5s;
+}

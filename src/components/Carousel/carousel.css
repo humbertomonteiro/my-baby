@@ -1,0 +1,23 @@
+
+
+.slide-item {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: var(--color-2);
+
+}
+
+.carousel-text {
+    position: relative;
+    bottom: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: var(--color-2);
+    color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 5px;
+    font-family: var(--font-2);
+}
+
