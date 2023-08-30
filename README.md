@@ -5,8 +5,8 @@ react-router-dom para paginação do site, o Swiper para criar os slides, o AOS 
 o toastify para notificações simples.
 
 Esse projeto vai servir para mamães ou papais que queiram criar eventos para seu filho(a) e ter uma 
-forma online e prática de confirmar a presença e dar informações adicionais como os presentes que 
-ainda não receberam criando uma lista dos presentes.
+forma online e prática de confirmar a presença, vai dar informações adicionais como os presentes que 
+ainda não receberam, criando uma lista dos presentes.
 
 # Cadastro e Login de usuários
 
