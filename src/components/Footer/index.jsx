@@ -17,7 +17,7 @@ export default function Footer() {
             </Link>
             <div>
                 Criado por: 
-                <a href="https://portfoliomynotes.netlify.app/" 
+                <a href="https://portfolio-amwcdeqzz-humbertomonteiro.vercel.app/" 
                 target='_blank' 
                 rel='noreferrer'
                 className={`primary-${dataUser?.theme}`}> Humberto</a> - 
